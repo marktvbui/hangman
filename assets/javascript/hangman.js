@@ -1,6 +1,6 @@
 // global variables
 
-var wordOptions = ['mulan', 'aurora', 'shrek', 'fiona', 'mushu', 'shang', 'cinderella', 'mickey', 'donald', 'minnie', 'winnie', 'pluto', 'jiminy', 'snowwhite', 'max', 'aladdin', 'jasmine', 'genie', 'abu', 'jafar', 'belle', 'beast', 'adam', 'gaston', 'baymax', 'hiro', 'anastasia', 'dumbo', 'marlin', 'dory', 'nemo', 'elsa', 'anna', 'olaf', 'kristoff', 'hercules', 'hera', 'zues', 'hades', 'joy', 'sadness', 'fear', 'anger', 'disgust', 'lilo', 'stitch', 'simba', 'nala', 'timon', 'pumbaa', 'ariel', 'eric', 'sulley', 'mike', 'boo', 'peterpan', 'tinkerbell', 'wendy', 'pinocchio', 'pocahontas', 'fauna', 'flora', 'maleficent', 'merryweather', 'tarzan', 'jane', 'woody', 'buzz', 'ralph'];
+var wordOptions = ['mulan', 'aurora', 'shrek', 'fiona', 'mushu', 'shang', 'cinderella', 'mickey', 'donald', 'minnie', 'winnie', 'pluto', 'jiminy', 'snowwhite', 'max', 'aladdin', 'jasmine', 'genie', 'abu', 'jafar', 'belle', 'beast', 'adam', 'gaston', 'baymax', 'hiro', 'anastasia', 'dumbo', 'marlin', 'dory', 'nemo', 'elsa', 'anna', 'olaf', 'kristoff', 'hercules', 'hera', 'zues', 'hades', 'joy', 'sadness', 'fear', 'anger', 'disgust', 'lilo', 'stitch', 'simba', 'nala', 'timon', 'pumbaa', 'ariel', 'eric', 'sulley', 'mike', 'boo', 'peterpan', 'tinkerbell', 'wendy', 'pinocchio', 'pocahontas', 'fauna', 'flora', 'maleficent', 'merryweather', 'tarzan', 'jane', 'woody', 'buzz', 'ralph', 'hops', 'merida', 'elinor', 'moana', 'maui', 'minion', 'walle', 'gru', 'stewart', 'bob', 'kevin', 'kubo', 'manny', 'diego', 'sid'];
 
 var selectedWord = [];
 var lettersinWord = [];
