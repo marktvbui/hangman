@@ -10,7 +10,7 @@ var wrongLetters =[];
 
 var winCount = 0;
 var lossCount = 0;
-var guessesLeft = 9;
+var guessesLeft = 15;
 
 // functions
 
