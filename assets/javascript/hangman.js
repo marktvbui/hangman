@@ -1,6 +1,6 @@
 // global variables
 
-var wordOptions = ['mulan', 'aurora', 'shrek', 'fiona', 'mushu', 'shang', 'cinderella', 'mickey', 'donald', 'minnie', 'winnie', 'pluto', 'snowwhite', 'max', 'aladdin', 'jasmine', 'genie', 'abu', 'jafar', 'belle', 'beast', 'adam', 'gaston', 'baymax', 'hiro', 'dumbo', 'marlin', 'dory', 'nemo', 'elsa', 'anna', 'olaf', 'kristoff', 'hercules', 'hera', 'zues', 'hades', 'joy', 'sadness', 'fear', 'anger', 'disgust', 'lilo', 'stitch', 'simba', 'nala', 'timon', 'pumbaa', 'ariel', 'eric', 'mike', 'boo', 'peterpan', 'tinkerbell', 'wendy', 'pinocchio', 'pocahontas', 'fauna', 'flora', 'merryweather', 'tarzan', 'jane', 'woody', 'buzz', 'ralph', 'hops', 'merida', 'moana', 'minion', 'wall e', 'gru', 'stewart', 'bob', 'kevin', 'kubo', 'sid', 'kenshin', 'kaoru', 'yahiko', 'sano'];
+var wordOptions = ['mulan', 'aurora', 'shrek', 'fiona', 'mushu', 'shang', 'cinderella', 'mickey', 'donald', 'minnie', 'winnie', 'pluto', 'snowwhite', 'max', 'aladdin', 'jasmine', 'genie', 'abu', 'jafar', 'belle', 'beast', 'adam', 'gaston', 'baymax', 'hiro', 'dumbo', 'marlin', 'dory', 'nemo', 'elsa', 'anna', 'olaf', 'kristoff', 'hercules', 'hera', 'zues', 'hades', 'joy', 'sadness', 'fear', 'anger', 'disgust', 'lilo', 'stitch', 'simba', 'nala', 'timon', 'pumbaa', 'ariel', 'eric', 'mike', 'boo', 'peterpan', 'tinkerbell', 'wendy', 'pinocchio', 'pocahontas', 'fauna', 'flora', 'merryweather', 'tarzan', 'jane', 'woody', 'buzz', 'ralph', 'hops', 'merida', 'moana', 'minion', 'walle', 'gru', 'stewart', 'bob', 'kevin', 'kubo', 'sid', 'kenshin', 'kaoru', 'yahiko', 'sano'];
 
 var selectedWord = [];
 var lettersinWord = [];
@@ -10,7 +10,7 @@ var wrongLetters =[];
 
 var winCount = 0;
 var lossCount = 0;
-var guessesLeft = 15;
+var guessesLeft = 10;
 
 // functions
 
@@ -20,7 +20,7 @@ function startGame() {
   numBlanks = lettersinWord.length;
 
 // reset
-  guessesLeft = 20;
+  guessesLeft = 10;
   wrongLetters = [];
   blanksAndSuccesses = [];
 
