@@ -34,9 +34,7 @@ function startGame() {
   document.getElementById('lossCounter').innerHTML = lossCount;
 
   console.log(selectedWord);
-  console.log(lettersinWord);
-  console.log(numBlanks);
-  console.log(blanksAndSuccesses);
+
 }
 
 function checkLetters(letter) {
@@ -55,11 +53,18 @@ function checkLetters(letter) {
       }
     }
   } else {
-    wrongLetters.push(letter);
-    guessesLeft--;
+    checkGuesses(letter);
   }
 
   console.log(blanksAndSuccesses);
+}
+
+function checkGuesses(letter) {
+  // look at current array and check to see if letter is already present
+  if (!wrongLetters.includes(letter)){
+    wrongLetters.push(letter);
+    guessesLeft--;
+  }
 }
 
 function roundComplete() {
@@ -74,7 +79,7 @@ function roundComplete() {
     alert('you won! the disney character was: ' + selectedWord);
     document.getElementById('winCounter').innerHTML = winCount;
     startGame();
-  } else if (guessesLeft == 0) {
+  } else if (guessesLeft <= 0) {
     lossCount++;
     alert('the secret word was: ' + selectedWord);
     document.getElementById('lossCounter').innerHTML = lossCount;
